@@ -1,0 +1,31 @@
+footer {
+    padding: 40px 0 10px 0;
+    background-image: var(--degrade-primary);
+}
+
+.sec {
+    padding: 0 20px 0 20px; 
+}
+
+.containerlinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+}
+
+.containerlinks__link {
+    font-size: 0.875rem;
+    font-weight: var(--bold);
+    text-decoration: none;
+    color: var(--white);
+    padding-top: 10px;
+}
+
+.Copyright {
+    text-align: center;
+    font-size: 0.625rem;
+    color: var(--white);
+    padding-top: 5px;
+    margin-top: 20px;
+    border-top: 2px solid var(--white);
+}
