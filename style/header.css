@@ -1,0 +1,15 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-image: var(--degrade-primary);
+    padding: 12px 20px;
+}
+
+.menu-hamburguer {
+    align-self: center;
+}
+
+.logo-one {
+    justify-self: center;
+    align-self: center;
+}
