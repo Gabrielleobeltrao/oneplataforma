@@ -1,0 +1,49 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 70px 30px;
+    background-image: var(--degrade-primary);
+    padding: 12px 20px;
+}
+
+.menu-hamburguer {
+    align-self: center;
+}
+
+.logo-one {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    justify-self: center;
+    align-self: center;
+}
+
+.estiloLinkHeader {
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: var(--bold);
+    color: var(--white);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+    align-self: center;
+}
+
+.inicio {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.design {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.web {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.tecnologia {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}

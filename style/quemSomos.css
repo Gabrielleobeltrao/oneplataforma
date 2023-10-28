@@ -1,0 +1,93 @@
+.comeco {
+    padding: 0 20px 0 20px;
+}
+
+.comeco__title {
+    font-size: 1.25rem;
+    font-weight: var(--bold);
+    padding-bottom: 10px;
+}
+
+.comeco__paragraph {
+    font-size: 0.875rem;
+}
+
+.missao {
+    padding: 35px 20px 0 20px; 
+}
+
+.missao__title {
+    font-size: 1.25rem;
+    font-weight: var(--bold);
+    padding-bottom: 10px;
+}
+
+.missao__paragraph {
+    font-size: 0.875rem;
+    padding-bottom: 10px;
+}
+
+.missao__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.missao__cards__line {
+    display: flex;
+    gap: 20px;
+}
+
+.missao__cards__line__card {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 5px; 
+}
+
+.porque {
+    padding: 35px 20px 0 20px; 
+}
+
+.porque__title {
+    font-size: 1.25rem;
+    font-weight: var(--bold);
+}
+
+.porque__paragraph {
+    font-size: 0.875rem;
+    padding-top: 15px;
+}
+
+.porque__paragraph__strong {
+    font-weight: var(--bold);
+}
+
+.compromisso {
+    padding: 35px 20px 0 20px;
+}
+
+.compromisso__title {
+    font-size: 1.25rem;
+    font-weight: var(--bold);
+    padding-bottom: 10px;
+}
+
+.compromisso__paragraph {
+    font-size: 0.875rem;
+}
+
+.visao {
+    padding: 35px 20px 0 20px;
+}
+
+.visao__title {
+    font-size: 1.25rem;
+    font-weight: var(--bold); 
+    padding-bottom: 10px;
+}
+
+.visao__paragraph {
+    font-size: 0.875rem;
+    padding-bottom: 35px;
+}
