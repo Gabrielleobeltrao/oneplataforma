@@ -1,0 +1,46 @@
+main {
+    padding: 0 20px;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: var(--bold);
+    padding: 20px 0 15px 0;
+}
+
+.explorando__banner__imagem {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.noticia {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.noticia__imagem {
+    width: 50%;
+}
+
+.noticia__title {
+    font-size: 0.875rem;
+    font-weight: var(--bold);
+    padding-bottom: 5px;
+}
+
+.noticia__paragraph {
+    font-size: 0.75rem;
+}
+
+.subBanner {
+    width: 100%;
+}
+
+.subBanner__imagem {
+    width: 100%;
+    padding-bottom: 20px;
+}
