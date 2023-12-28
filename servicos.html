@@ -7,17 +7,27 @@
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/variables.css">
     <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/menu.css">
     <link rel="stylesheet" href="style/servicos.css">
     <link rel="stylesheet" href="style/footer.css">
 </head>
 <body>
     <header>
-        <img class="menu-hamburguer" src="assets/icon-menu-hamburguer.svg" alt="Menu Hamburguer">
+        <img class="menu-hamburguer" id="menuHamburguer" src="assets/icon-menu-hamburguer.svg" alt="Menu Hamburguer">
         <a class="logo-one" href="index.html">
             <img src="assets/logo-one-white.svg" alt="Logo da One Plataforma">
         </a>
     </header>
     <main>
+        <section>
+            <div id="menu" class="menu__container">
+                <a class="menu__container__link" href="index.html">Inicio</a>
+                <a class="menu__container__link" href="quemSomos.html">Quem Somos</a>
+                <a class="menu__container__link" href="portfolio.html">Portfólio</a>
+                <a class="menu__container__link" href="servicos.html">Serviços</a>
+            </div>
+            <div id="menuFundo" class="menu__bg"></div>
+        </section>
         <section class="servicos">
             <h3 class="servicos__title">Serviços</h3>
             <p class="servicos__paragraph">Conheça nosso conjunto de soluções. Com uma abordagem centrada no cliente, criamos designs personalizados e sites eficientes que não apenas cativam seu público, mas também impulsionam o crescimento do seu negócio. Descubra como nossos serviços de criação de site, Loja Virtual, identidade visual e desenvolvimento web podem dar vida à sua presença online.</p>
@@ -77,4 +87,5 @@
         <p class="Copyright">Copyright 2023 One Plataforma</p>
     </footer>
 </body>
+<script src="script/menuHamburger.js" ></script>
 </html>

@@ -6,6 +6,10 @@ html {
     font-family: 'Kantumruy Pro', sans-serif;
     font-weight: var(--regular);
   }
+
+  main {
+    margin-top: 74px;
+  }
   
   *, *:before, *:after {
     box-sizing: inherit;
