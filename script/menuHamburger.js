@@ -8,7 +8,11 @@ menuHamburguer.addEventListener('click', () => {
         menu.classList.add('menuSaindo')
         menuFundo.classList.remove('menuSaindo')
         menuFundo.classList.add('opacidadeBaixa')
+        setTimeout(() => {
+            menuFundo.classList.add('hide');
+        }, 1000);
     } else {
+        menuFundo.classList.remove('hide');
         menu.classList.remove('menuSaindo')
         menu.classList.add('menuEntrando')
         menuFundo.classList.remove('opacidadeBaixa')
@@ -22,5 +26,8 @@ menuFundo.addEventListener('click', () => {
         menu.classList.add('menuSaindo')
         menuFundo.classList.remove('menuSaindo')
         menuFundo.classList.add('opacidadeBaixa')
+        setTimeout(() => {
+            menuFundo.classList.add('hide');
+        }, 1000);
     }
 })
