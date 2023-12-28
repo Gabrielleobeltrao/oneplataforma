@@ -1,5 +1,8 @@
 header {
     display: grid;
+    position: fixed;
+    width: 100%;
+    top: 0;
     grid-template-columns: 1fr 1fr 1fr;
     background-image: var(--degrade-primary);
     padding: 12px 20px;

@@ -7,17 +7,27 @@
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/variables.css">
     <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/menu.css">
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/footer.css">
 </head>
 <body>
     <header>
-        <img class="menu-hamburguer" src="assets/icon-menu-hamburguer.svg" alt="Menu Hamburguer">
+        <img class="menu-hamburguer" id="menuHamburguer" src="assets/icon-menu-hamburguer.svg" alt="Menu Hamburguer">
         <a class="logo-one" href="index.html">
             <img src="assets/logo-one-white.svg" alt="Logo da One Plataforma">
         </a>
     </header>
     <main>
+        <section>
+            <div id="menu" class="menu__container">
+                <a class="menu__container__link" href="index.html">Inicio</a>
+                <a class="menu__container__link" href="quemSomos.html">Quem Somos</a>
+                <a class="menu__container__link" href="portfolio.html">Portfólio</a>
+                <a class="menu__container__link" href="servicos.html">Serviços</a>
+            </div>
+            <div id="menuFundo" class="menu__bg hide"></div>
+        </section>
         <section class="banner">
             <h3 class="banner__title">Potencialize Sua Presença Online com a One Plataforma: Desenvolvimento Web, Ecommerce e Identidade Visual</h3>
             <img class="banner__iphone" src="assets/iphone-ecotechcon.png" alt="Iphone com a pagina da EcoTechCon">
@@ -62,7 +72,7 @@
                 </div>
             </div>
         </section>
-        <section class="explorando">
+        <!-- <section class="explorando">
             <h3 class="explorando__title">Explorando o Digital</h3>
             <p class="explorando__paragraph">Navegue pelo nosso blog 'Explorando o Digital' para insights frescos, dicas práticas e histórias inspiradoras que o ajudarão a dominar o mundo online. Descubra o poder do digital e aproveite ao máximo sua presença na web.</p>
             <div class="explorando__artigos">
@@ -75,14 +85,37 @@
                     <a class="artigo4" href=""></a>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="faq">
             <h3 class="faq__title">FAQ</h3>
-            <div class="faq__questions">
+            <div id="faq">
+                <div id="faqPergunta1" class="faq__questions">
+                    <p class="faq__questions__title" >Quais serviços sua startup oferece?</p>
+                    <span class="faq__arrow"></span>
+                </div>
+                <div id="faqResponse1" class="faq__response hide">
+                    <p class="faq__response__paragraph">Nossa startup, a One Plataforma, oferece serviços completos de criação de site, desenvolvimento web, criação de lojas virtuais e identidade visual. Tudo projetado para aprimorar sua presença online de maneira eficaz e impactante.</p>
+                </div>
+            </div>
+            <div id="faqPergunta2" class="faq__questions">
                 <p class="faq__questions__title" >Quais serviços sua startup oferece?</p>
                 <span class="faq__arrow"></span>
             </div>
-            <div class="faq__response">
+            <div id="faqResponse2" class="faq__response hide">
+                <p class="faq__response__paragraph">Nossa startup, a One Plataforma, oferece serviços completos de criação de site, desenvolvimento web, criação de lojas virtuais e identidade visual. Tudo projetado para aprimorar sua presença online de maneira eficaz e impactante.</p>
+            </div>
+            <div id="faqPergunta3" class="faq__questions">
+                <p class="faq__questions__title" >Quais serviços sua startup oferece?</p>
+                <span class="faq__arrow"></span>
+            </div>
+            <div id="faqResponse3" class="faq__response hide">
+                <p class="faq__response__paragraph">Nossa startup, a One Plataforma, oferece serviços completos de criação de site, desenvolvimento web, criação de lojas virtuais e identidade visual. Tudo projetado para aprimorar sua presença online de maneira eficaz e impactante.</p>
+            </div>
+            <div id="faqPergunta4" class="faq__questions">
+                <p class="faq__questions__title" >Quais serviços sua startup oferece?</p>
+                <span class="faq__arrow"></span>
+            </div>
+            <div id="faqResponse4" class="faq__response hide">
                 <p class="faq__response__paragraph">Nossa startup, a One Plataforma, oferece serviços completos de criação de site, desenvolvimento web, criação de lojas virtuais e identidade visual. Tudo projetado para aprimorar sua presença online de maneira eficaz e impactante.</p>
             </div>
         </section>
@@ -94,9 +127,8 @@
                     <input class="contato__form__name__first contato__styleinput" type="text" placeholder="Primeiro Nome">
                     <input class="contato__form__name__last contato__styleinput" type="text" placeholder="Ultimo nome">
                 </div>
-                <input class="contato__styleinput" type="text" placeholder="Nome da Empresa">
                 <input class="contato__styleinput" type="text" placeholder="E-mail">
-                <input class="contato__styleinput" type="text" placeholder="Mensagem">
+                <textarea class="contato__styleinput__mensagem" cols="30" rows="5" placeholder="Mensagem"></textarea>
                 <button class="contato__button">Enviar Mensagem</button>
             </form>
         </section>
@@ -109,12 +141,14 @@
                 <a class="containerlinks__link" href="quemSomos.html">Quem Somos</a>
                 <a class="containerlinks__link" href="portfolio.html">Portfólio</a>
                 <a class="containerlinks__link" href="servicos.html">Serviços</a>
-                <a class="containerlinks__link" href="explorandoDigital.html">Explorando o Digital</a>
-                <a class="containerlinks__link" href="">Central de Ajuda</a>
-                <a class="containerlinks__link" href="">Contato</a>
+                <!-- <a class="containerlinks__link" href="explorandoDigital.html">Explorando o Digital</a>
+                <a class="containerlinks__link" href="centralDeAjuda.html">Central de Ajuda</a>
+                <a class="containerlinks__link" href="">Contato</a> -->
             </div>
         </section>
         <p class="Copyright">Copyright 2023 One Plataforma</p>
     </footer>
 </body>
+<script src="script/menuHamburger.js" ></script>
+<script src="script/faq.js" ></script>
 </html>

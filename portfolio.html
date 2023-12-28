@@ -7,19 +7,29 @@
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/variables.css">
     <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/menu.css">
     <link rel="stylesheet" href="style/portfolio.css">
     <link rel="stylesheet" href="style/footer.css">
 </head>
 <body>
     <header>
-        <img class="menu-hamburguer" src="assets/icon-menu-hamburguer.svg" alt="Menu Hamburguer">
+        <img class="menu-hamburguer" id="menuHamburguer" src="assets/icon-menu-hamburguer.svg" alt="Menu Hamburguer">
         <a class="logo-one" href="index.html">
             <img src="assets/logo-one-white.svg" alt="Logo da One Plataforma">
         </a>
     </header>
     <main>
+        <section>
+            <div id="menu" class="menu__container">
+                <a class="menu__container__link" href="index.html">Inicio</a>
+                <a class="menu__container__link" href="quemSomos.html">Quem Somos</a>
+                <a class="menu__container__link" href="portfolio.html">Portfólio</a>
+                <a class="menu__container__link" href="servicos.html">Serviços</a>
+            </div>
+            <div id="menuFundo" class="menu__bg hide"></div>
+        </section>
         <section class="portfolio">
-            <div class="portfolio__opcoes">
+            <!-- <div class="portfolio__opcoes">
                 <h3 class="portfolio__opcoes__title">Todos Projetos</h3>
                 <span class="portfolio__opcoes__arrow"></span>
             </div>
@@ -29,7 +39,7 @@
                 <h3 class="portfolio__opcoes__title">Identidade Visual</h3>
                 <h3 class="portfolio__opcoes__title">Desenvolvimento de site</h3>
                 <h3 class="portfolio__opcoes__title">Todos Projetos</h3>
-            </div>
+            </div> -->
             <div class="portfolio__projetos">
                 <div class="portfolio__projetos__esquerda">
                     <a class="projeto1" href=""></a>
@@ -58,12 +68,13 @@
                 <a class="containerlinks__link" href="quemSomos.html">Quem Somos</a>
                 <a class="containerlinks__link" href="portfolio.html">Portfólio</a>
                 <a class="containerlinks__link" href="servicos.html">Serviços</a>
-                <a class="containerlinks__link" href="explorandoDigital.html">Explorando o Digital</a>
-                <a class="containerlinks__link" href="">Central de Ajuda</a>
-                <a class="containerlinks__link" href="">Contato</a>
+                <!-- <a class="containerlinks__link" href="explorandoDigital.html">Explorando o Digital</a>
+                <a class="containerlinks__link" href="centralDeAjuda.html">Central de Ajuda</a>
+                <a class="containerlinks__link" href="">Contato</a> -->
             </div>
         </section>
         <p class="Copyright">Copyright 2023 One Plataforma</p>
     </footer>
 </body>
+<script src="script/menuHamburger.js" ></script>
 </html>

@@ -370,6 +370,18 @@
     font-size: 0.875rem;
 }
 
+.contato__styleinput__mensagem {
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.contato__styleinput__mensagem::placeholder {
+    color: var(--black);
+    font-size: 0.875rem;
+}
+
 .contato__button {
     border: none;
     border-radius: 20px;
