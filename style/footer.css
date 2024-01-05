@@ -21,6 +21,13 @@ footer {
     padding-top: 10px;
 }
 
+.containerlinks__redes {
+    display: flex;
+    gap: 20px;
+    align-self: center;
+    padding-top: 20px;
+}
+
 .Copyright {
     text-align: center;
     font-size: 0.625rem;
